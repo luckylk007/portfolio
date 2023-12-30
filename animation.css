@@ -1,0 +1,52 @@
+.menu-hover-effect {
+    display: inline-block;
+    position: relative;
+    color: 
+  white;
+  }
+
+.menu-hover-effect:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#18D26E;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu-hover-effect:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  /* effect for navbar */
+.menu-hover-effect-1 {
+  display: inline-block;
+  position: relative;
+  color: 
+white;
+}
+
+.menu-hover-effect-1:after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color:#18d26f28;
+transform-origin: bottom right;
+transition: transform 0.50s ease-out;
+}
+
+.menu-hover-effect-1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
